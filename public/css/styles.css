@@ -1,0 +1,37 @@
+.navbar-default{
+    background-color: #196C8F;
+    height: 100px;
+    border-radius: 20px;
+}
+.navbar-right li a{
+    color: white !important;
+    font-size: 20px;
+}
+#logo-generico{
+    width: 80px;
+}
+.text-md-left{
+    background-color: #196C8F;
+    color: white;
+}
+.py-3{
+    background-color: #1B2631;
+    color: white;
+}
+#fblogo{
+    width: 30px;
+}
+#instalogo{
+    width: 30px;
+}
+#ytlogo{
+    width: 30px;
+}
+#wsplogo{
+    width: 32px;
+}
+body{
+    color: white;
+    background-color: #1B2631;
+    
+}
