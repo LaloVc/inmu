@@ -1,7 +1,6 @@
-.navbar-default{
+.navbar-default, .navbar-collapse{
     background-color: #196C8F;
     height: 100px;
-    border-radius: 20px;
 }
 .navbar-right li a{
     color: white !important;
@@ -34,4 +33,73 @@ body{
     color: white;
     background-color: #1B2631;
     
+}
+#cardform{
+    -webkit-box-shadow: 0px 0px 28px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 28px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 28px -3px rgba(0,0,0,0.75);
+    background-color: #22694A;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+#btnform{
+    background: -webkit-linear-gradient(left, rgba(245,203,152,1) 0%, rgba(255,146,10,1) 100%);
+    border-radius: 30px;
+    width: 100px;
+}
+#btnform:hover{
+    -webkit-box-shadow: 0px 3px 31px 5px rgba(208,212,89,0.68);
+    -moz-box-shadow: 0px 3px 31px 5px rgba(208,212,89,0.68);
+    box-shadow: 0px 3px 31px 5px rgba(208,212,89,0.68);
+    background: -webkit-linear-gradient(left, rgba(255,163,51,1) 0%, rgba(255,207,148,1) 100%);
+    width: 100px;
+}
+#contentBannerHome{
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+#contentBannerHome h1{
+    margin-top: 30%;
+    font-size: 60px;
+}
+#contentBannerHome p{
+    font-size: 30px;
+}
+#divServices{
+    background-color: gray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#divServices h1{
+    text-align: center;
+}
+#divServices p{
+    text-align: center;
+    font-size: 20px;
+}
+.parallax{
+    background-image: url("/images/condominio.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#divContent{
+    height: 1000px;
+    background-color: #22694A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#divConten{
+    font-size: 20px;
+}
+#imgventa{
+    height: 150px;
+}
+#artculos1{
+    text-align: center;
+
 }
